@@ -1,0 +1,185 @@
+window.onload = function()
+{
+  TweenMax.to("#img1" , 0.5 , {left: 320 , ease: Back.easeOut.config(1.7)});
+  TweenMax.to("#img2" , 0.5 , {right: 340 , ease: Back.easeOut.config(1.7)});
+  TweenMax.to("#img3" , 0.5 , {left:320 , ease: Back.easeOut.config(1.7)});
+  TweenMax.to("#img4" , 0.5 , {right:310 , ease: Back.easeOut.config(1.7)});
+    TweenMax.to("#img5" , 0.5 , {left: 307 , ease: Back.easeOut.config(1.7)});
+      TweenMax.to("#img6" , 0.5 , {right :305 , ease: Back.easeOut.config(1.7)});
+        TweenMax.to("#img7" , 0.5 , {left: 318 , ease: Back.easeOut.config(1.7)});
+          TweenMax.to("#img8" , 0.5 , {right: 340 , ease: Back.easeOut.config(1.7)});
+            TweenMax.to("#img9" , 0.5 , {left: 325 , ease: Back.easeOut.config(1.7)});
+              TweenMax.to("#img10" , 0.5 , {right: 320 , ease: Back.easeOut.config(1.7)});
+                TweenMax.to("#img11" , 0.5 , {left: 330 , ease: Back.easeOut.config(1.7)});
+                   TweenMax.to("#img12" , 0.5 , {right: 315 , ease: Back.easeOut.config(1.7)});
+                     TweenMax.to("#img13" , 0.5 , {left: 333 , ease: Back.easeOut.config(1.7)});
+                       TweenMax.to("#img14" , 0.5 , {right: 321 , ease: Back.easeOut.config(1.7)});
+                         TweenMax.to("#img15" , 0.5 , {left: 311 , ease: Back.easeOut.config(1.7)});
+                           TweenMax.to("#img16" , 0.5 , {right: 319 , ease: Back.easeOut.config(1.7)});
+                             TweenMax.to("#img17" , 0.5 , {left: 314 , ease: Back.easeOut.config(1.7)});
+                               TweenMax.to("#img18" , 0.5 , {right: 336 , ease: Back.easeOut.config(1.7)});
+                                 TweenMax.to("#img19" , 0.5 , {right: 308 , ease: Back.easeOut.config(1.7)});
+                                   TweenMax.to("#img20" , 0.5 , {right: 310 , ease: Back.easeOut.config(1.7)});
+                                     TweenMax.to("#img21" , 0.5 , {right: 324 , ease: Back.easeOut.config(1.7)});
+                                       TweenMax.to("#img22" , 0.5 , {right: 335 , ease: Back.easeOut.config(1.7)});
+}
+
+
+CSS :
+
+#img1{
+	height: 60px;
+	transform: rotate(-28deg);
+	position: relative;
+	top: 110px;
+}
+
+#img2{
+	height: 60px;
+	transform: rotate(28deg);
+	position: relative;
+	top: 110px;
+}
+
+#img3{
+	height: 60px;
+	transform: rotate(26deg);
+	position: relative;
+	top: 110px;
+}
+
+#img4{
+	height: 60px;
+	transform: rotate(110deg);
+	position: relative;
+	top: 110px;
+}
+
+#img5{
+	height: 60px;
+	transform: rotate(-276deg);
+	position: relative;
+	top: 160px;
+}
+
+#img6{
+	height: 60px;
+	transform: rotate(276deg);
+	position: relative;
+	top: 160px;
+}
+
+#img7{
+	height: 60px;
+	transform: rotate(310deg);
+	position: relative;
+	top: 160px;
+}
+
+#img8{
+	height: 60px;
+	transform: rotate(-310deg);
+	position: relative;
+	bottom: 120px;
+}
+
+#img9{
+	height: 60px;
+	transform: rotate(-210deg);
+	position: relative;
+	bottom: 100px;
+}
+
+#img10{
+	height: 60px;
+	transform: rotate(200deg);
+	position: relative;
+	bottom: 100px;
+}
+
+#img11{
+	height: 60px;
+	transform: rotate(150deg);
+	position: relative;
+	bottom: 100px;
+}
+
+#img12{
+	height: 60px;
+	transform: rotate(110deg);
+	position: relative;
+	bottom: 100px;
+}
+
+#img13{
+	height: 60px;
+	transform: rotate(50deg);
+	position: relative;
+	bottom: 100px;
+}
+
+#img14{
+	height: 60px;
+	transform: rotate(-70deg);
+	position: relative;
+	bottom: 100px;
+}
+
+#img15{
+	height: 60px;
+	transform: rotate(20deg);
+	position: relative;
+	bottom: 100px;
+}
+
+#img16{
+	height: 60px;
+	transform: rotate(-10deg);
+	position: relative;
+	bottom: 100px;
+}
+
+#img17{
+	height: 60px;
+	transform: rotate(240deg);
+	position: relative;
+	bottom: 100px;
+}
+
+#img18{
+	height: 60px;
+	transform: rotate(56deg);
+	position: relative;
+	bottom: 100px;
+}
+
+#img19{
+	height: 60px;
+	transform: rotate(80deg);
+	position: relative;
+	bottom: 100px;
+}
+
+#img20{
+	height: 60px;
+	transform: rotate(-5deg);
+	position: relative;
+	bottom: 100px;
+}
+
+#img21{
+	height: 60px;
+	transform: rotate(60deg);
+	position: relative;
+	bottom: 100px;
+}
+
+#img22{
+	height: 60px;
+	transform: rotate(10deg);
+	position: relative;
+	bottom: 100px;
+}
+
+
+htmL: 

@@ -1,0 +1,329 @@
+body{
+	background-color: #131045;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+overflow:inherit;
+overflow-y:hidden;
+}
+
+
+#logo{
+
+	height: 70px;
+	width: 90px;
+	position: fixed;
+	left: 580px;
+	top: 30px;
+
+}
+
+#back_logo{
+  background-color: yellow ;
+	border-radius: 150;
+	height: 150px;
+	width: 150px;'
+  position: fixed;
+	margin-left: 548px;
+	top: 10px;
+}
+
+h1{
+	position: fixed;
+	left: 578px;
+	top: 83px;
+	font-size: 19px;
+	font-family: 'Rambla', sans-serif;
+	font-weight: bolder;
+  color: #230363;
+}
+
+nav{
+	background-color: #091413;
+	height: 60px;
+	width: 650px;
+	border-radius: 10;
+	border-color: black;
+	border-width: 3px;
+
+}
+nav ul li {
+  list-style-type: none;
+	display: inline;
+	width: 130px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	line-height: 60px;
+	color: white;
+	font-family: 'Dosis', sans-serif;
+	padding: 10px;
+	font-size: 20px;
+}
+
+li a:hover{
+	color:yellow;
+}
+
+.nav_bar{
+  position: fixed;
+	top: 20px;
+	left: 730px;
+}
+
+
+p{
+	font-family: 'Rambla', sans-serif;
+	font-size: 90px;
+	color: yellow;
+margin-left: 340px;
+}
+.footer{
+	width: 100%;
+	height:32px;
+	background-color: #010629;
+	position: fixed;
+	bottom: 0px;
+}
+
+h2{
+	color: white;
+	font-size: 45px;
+  margin-left: 450px;
+	background: black;
+	border-radius:20;
+	width: 160px;
+  height: 70px;
+  padding-left: 20px;
+	font-family: 'Dosis', sans-serif;
+	bottom: 60px;
+	position: fixed;
+
+}
+h2 a{
+	text-decoration: none;
+}
+
+h2:hover{
+
+	color: yellow;
+}
+
+#pad{
+	position: fixed;
+	top: 120px;
+	left: 100px;
+}
+
+#circle1{
+
+  height: 15px;
+  width: 67px ;
+  background-color: yellow ;
+  border-radius: 150px;
+  transition-property:  all;
+  transition-duration: 0.5s ;
+  transition-delay: 0s ;
+  animation-timing-function: ease-in;
+	position: fixed;
+	left: 130px;
+	top: 210px;
+}
+
+#circle1:hover{
+  cursor: pointer;
+  width: 90px;
+}
+#circle2{
+
+  height: 15px;
+  width: 30px ;
+  background-color: yellow ;
+  border-radius: 150px;
+  transition-property:  all;
+  transition-duration: 0.5s ;
+  transition-delay: 0s ;
+  animation-timing-function: ease-in;
+	position: fixed;
+	left: 130px;
+	top: 250px;
+}
+
+#circle2:hover{
+  cursor: pointer;
+  width: 160px;
+}
+
+#circle3{
+
+  height: 15px;
+  width: 56px ;
+  background-color: yellow ;
+  border-radius: 150px;
+  transition-property:  all;
+  transition-duration: 0.5s ;
+  transition-delay: 0s ;
+  animation-timing-function: ease-in;
+	position: fixed;
+	left: 130px;
+	top: 250px;
+}
+
+#circle3:hover{
+  cursor: pointer;
+  width: 170px;
+}
+
+#circle4{
+
+  height: 15px;
+  width: 94px ;
+  background-color: yellow ;
+  border-radius: 150px;
+  transition-property:  all;
+  transition-duration: 0.5s ;
+  transition-delay: 0s ;
+  animation-timing-function: ease-in;
+	position: fixed;
+	left: 130px;
+	top: 270px;
+}
+
+#circle4:hover{
+  cursor: pointer;
+  width: 167px;
+}
+
+#circle5{
+
+  height: 15px;
+  width: 65px ;
+  background-color: yellow ;
+  border-radius: 150px;
+  transition-property:  all;
+  transition-duration: 0.5s ;
+  transition-delay: 0s ;
+  animation-timing-function: ease-in;
+	position: fixed;
+	left: 130px;
+	top: 310px;
+}
+
+#circle5:hover{
+  cursor: pointer;
+  width: 113px;
+}
+#circle6{
+
+  height: 15px;
+  width: 88px ;
+  background-color: yellow ;
+  border-radius: 150px;
+  transition-property:  all;
+  transition-duration: 0.5s ;
+  transition-delay: 0s ;
+  animation-timing-function: ease-in;
+	position: fixed;
+	left: 130px;
+	top: 350px;
+}
+
+#circle6:hover{
+  cursor: pointer;
+  width: 172px;
+}
+#circle7{
+
+  height: 15px;
+  width: 110px ;
+  background-color: yellow ;
+  border-radius: 150px;
+  transition-property:  all;
+  transition-duration: 0.5s ;
+  transition-delay: 0s ;
+  animation-timing-function: ease-in;
+	position: fixed;
+	left: 130px;
+	top: 380px;
+}
+
+#circle7:hover{
+  cursor: pointer;
+  width: 160px;
+}
+#circle8{
+
+  height: 15px;
+  width: 90px ;
+  background-color: yellow ;
+  border-radius: 150px;
+  transition-property:  all;
+  transition-duration: 0.5s ;
+  transition-delay: 0s ;
+  animation-timing-function: ease-in;
+	position: fixed;
+	left: 130px;
+	top: 398px;
+}
+
+#circle8:hover{
+  cursor: pointer;
+  width: 173px;
+}
+#circle9{
+
+  height: 15px;
+  width: 95px ;
+  background-color: yellow ;
+  border-radius: 150px;
+  transition-property:  all;
+  transition-duration: 0.5s ;
+  transition-delay: 0s ;
+  animation-timing-function: ease-in;
+	position: fixed;
+	left: 130px;
+	top: 430px;
+}
+
+#circle9:hover{
+  cursor: pointer;
+  width: 150px;
+}
+
+#footer_tags {
+
+	text-decoration: none ;
+	color: white;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	display: inline;
+			padding: 5px;
+}
+
+#footer_tags li{
+	float: left;
+line-height: 2px;
+ padding-right: 15px;
+
+}
+
+#footer_tags li a{
+	text-decoration: none;
+	color: #ffffff;
+  font-family: 'Slabo 27px', serif;
+}
+
+#learn{
+	position: fixed;
+	right: 6px;
+	bottom: 20px;
+	color: white;
+	font-size: 35px;
+	text-decoration: none;
+}
+
+#learn:hover{
+color: red;
+
+
+}

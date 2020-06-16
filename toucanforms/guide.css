@@ -1,0 +1,155 @@
+
+#logo{
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+#background1{
+  background-color: black;
+  width: auto ;
+  height: 630px;
+  overflow: auto;
+  padding: 0px;
+}
+
+
+#n1 img , #n2 img , #n3 img, #n4 img, #n5 img, #n6 img, #n7 img{
+
+  margin-top: 800px;
+  border: 3px solid black;
+
+
+}
+#n1:hover, #n2:hover,#n2:hover, #n3:hover, #n4:hover, #n5:hover, #n5:hover, #n6:hover, #n7:hover{
+ animation-name: swing;
+ animation-duration: 0.5s;
+}
+
+@keyframes swing {
+  20% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+  60% {
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+
+h1{
+  position: absolute;
+  font-family: 'Rambla', sans-serif;
+  font-size: 90px;
+  color: yellow;
+  right: 210px;
+  top: 280px;
+
+}
+
+.background2{
+  background-color: black;
+  width: auto;
+  height: 500px;
+}
+#overrated{
+  font-size: 130px;
+}
+
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+h1 {
+  animation-name: fadeInRight;
+  animation-duration: 1s;
+}
+
+.notes_charts{
+  margin-top: 200px;
+  position: absolute;
+}
+.caption1{
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  right: 30px;
+  top: 750px;
+  position: absolute;
+}
+
+#lap1{
+  height: 670px;
+  top: 7px;
+  align-content: center;
+  position: absolute;
+  animation-name: bounce-left;
+  animation-duration: 2s;
+}
+@keyframes bounce-left{
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(-3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0);
+  }
+
+  75% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  90% {
+    transform: translate3d(5px, 0, 0);
+  }
+
+  to {
+    transform: none;
+  }
+}
+.background3{
+  background-color: black;
+  height: 700px;
+}
+
+#m1 , #m2  , #m3  , #m4 , #m5  , #m6 , #m7 , #m8 , #m9 , #m10  {
+  height: 120px;
+  top: 140px;
+  position: relative;
+}
+.caption2{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    right: 20px;
+    font-size: 40px;
+    top: 1300px;
+    position: absolute;
+}

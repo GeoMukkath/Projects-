@@ -1,0 +1,34 @@
+body{
+
+  background-image : url("images/patternbooks.png");
+
+  overflow : hidden;
+
+
+}
+
+#logo{
+  height: 100px;
+  width: 100px;
+  position:fixed;
+  top: 15px;
+  left: 10px;
+}
+
+h2{
+  color: yellow ;
+  font-family: 'Heebo', sans-serif;
+  position: relative;
+  font-size: 30px;
+  top: 110px;
+  left: 5px;
+
+}
+#back{
+  position: absolute;
+  top: 10%;
+  right: 30%;
+  height: 550px;
+  width: 550px;
+  border-radius: 50%;
+}
